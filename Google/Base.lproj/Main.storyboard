@@ -23,7 +23,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="X4W-ci-Pjx" kind="modal" animates="NO" id="Tfq-7E-YmO"/>
+                                    <segue destination="X4W-ci-Pjx" kind="modal" modalTransitionStyle="flipHorizontal" id="Tfq-7E-YmO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -38,7 +38,7 @@
         <!--View Controller-->
         <scene sceneID="qpn-0g-Rfv">
             <objects>
-                <viewController id="X4W-ci-Pjx" sceneMemberID="viewController">
+                <viewController id="X4W-ci-Pjx" customClass="ViewController" customModule="Google" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J8r-zW-IhN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -57,6 +57,16 @@
                                     <segue destination="WoK-tD-5MC" kind="modal" animates="NO" id="Ese-4m-PKW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hi7-YQ-xwz">
+                                <rect key="frame" x="20" y="517" width="83" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" modalTransitionStyle="flipHorizontal" id="hCF-x3-Wv7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -68,7 +78,7 @@
         <!--View Controller-->
         <scene sceneID="dcl-EP-3ou">
             <objects>
-                <viewController id="WoK-tD-5MC" sceneMemberID="viewController">
+                <viewController id="WoK-tD-5MC" customClass="ViewController" customModule="Google" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PF7-AT-NcO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -87,6 +97,16 @@
                                     <segue destination="pPi-wo-9id" kind="modal" animates="NO" id="s47-Pv-WSo"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="p1C-sd-UdH">
+                                <rect key="frame" x="20" y="517" width="83" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="X4W-ci-Pjx" kind="modal" animates="NO" id="i2P-5l-EWX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -98,7 +118,7 @@
         <!--View Controller-->
         <scene sceneID="CFV-mb-Agz">
             <objects>
-                <viewController id="pPi-wo-9id" sceneMemberID="viewController">
+                <viewController id="pPi-wo-9id" customClass="ViewController" customModule="Google" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NFm-5w-7wV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -117,6 +137,16 @@
                                     <segue destination="fDm-aL-zt7" kind="modal" animates="NO" id="Gj7-Iu-sRq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="58p-vI-Ik1">
+                                <rect key="frame" x="20" y="517" width="83" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WoK-tD-5MC" kind="modal" animates="NO" id="tuw-dd-8L6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -128,7 +158,7 @@
         <!--View Controller-->
         <scene sceneID="rB3-N1-29B">
             <objects>
-                <viewController id="fDm-aL-zt7" sceneMemberID="viewController">
+                <viewController id="fDm-aL-zt7" customClass="ViewController" customModule="Google" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="87Y-kK-3Ri">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -147,6 +177,16 @@
                                     <segue destination="PO8-vP-2Cs" kind="modal" modalTransitionStyle="crossDissolve" id="oST-zI-CXt"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bJ4-at-bja">
+                                <rect key="frame" x="26" y="517" width="83" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" modalTransitionStyle="flipHorizontal" id="JTF-zw-BlL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -158,7 +198,7 @@
         <!--View Controller-->
         <scene sceneID="R5R-Ez-cip">
             <objects>
-                <viewController id="PO8-vP-2Cs" sceneMemberID="viewController">
+                <viewController id="PO8-vP-2Cs" customClass="ViewController" customModule="Google" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p5a-o1-fas">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -189,7 +229,7 @@
         <!--View Controller-->
         <scene sceneID="op7-hr-Fpr">
             <objects>
-                <viewController id="bLf-za-hJA" sceneMemberID="viewController">
+                <viewController id="bLf-za-hJA" customClass="ViewController" customModule="Google" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hSz-qy-VKw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -224,4 +264,9 @@
         <image name="welcome3" width="320" height="568"/>
         <image name="welcome4" width="320" height="568"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="tuw-dd-8L6"/>
+        <segue reference="Tfq-7E-YmO"/>
+        <segue reference="hCF-x3-Wv7"/>
+    </inferredMetricsTieBreakers>
 </document>
